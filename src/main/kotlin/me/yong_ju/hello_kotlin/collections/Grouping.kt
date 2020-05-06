@@ -1,6 +1,6 @@
 package me.yong_ju.hello_kotlin.collections
 
-fun main() {
+fun main(args: Array<String>) {
     run {
         val numbers = listOf("one", "two", "three", "four", "five")
 
