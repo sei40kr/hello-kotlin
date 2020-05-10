@@ -58,7 +58,7 @@ fun main(args: Array<String>) {
         println(numbers.none { it.endsWith("a") })
         println(numbers.all { it.endsWith("e") })
 
-        pirntln(emptyList<Int>().all { it > 5 })
+        println(emptyList<Int>().all { it > 5 })
     }
 
     run {
